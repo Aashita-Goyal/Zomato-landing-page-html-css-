@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
     <link href="style_zomato.css" rel="stylesheet"/>
     <title>Zomato-html,css</title>
   </head>
@@ -38,19 +40,48 @@
 
 
           <!--Explore Menu-->
-          <section class="explore__menu__container">
-            <h1 class="explore__menu__text">Explore our Menu</h1>
-             <div class="explore__menu__lists" >
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text"><strong>Explore our Menu</strong></h1>
+            <div class="explore__menu__gradient__bg"></div>
+            <div class="explore__menu__lists">
+ 
+                <!--Burger-->
                 <div class="food__card">
-            <div class="food__card__image">
-                <img src="assets/burger.jpg " alt="burger" class="food__image"/>
+                    <div class="food__card__image__container">
+                        <img src="./assets/burger.jpg " alt="burger" class="food__image"/>
+                    </div> 
+                <div class="food__card__description">
+                    <h3 class="food__title">Burger</h3>
+                    <p class="food__menu__text">Burger King, Mcdonalds, Burger Place <span style="color: red">+3</span></p>
+                </div>
+                </div>
 
-            </div> 
-            <div class="food__card_description">
-                <h3 class=""></h3>
+                <!--Pizza-->
+                <div class="food__card" id="pizza__card">
+                    <div class="food__card__image__container">
+                       <img src="./assets/pizza.jpg" alt="pizza" class="food__image"/>
+                    </div> 
+                <div class="food__card__description">
+                    <h3 class="food__title">Pizza</h3>
+                    <p class="food__menu__text">Pizza Hut, Domino's Pizza <span style="color: red">+3</span></p>
+                </div>
+                </div>
+
+                <!--Ice Cream-->
+                <div class="food__card">
+                    <div class="food__card__image__container">
+                       <img src="./assets/iceCream.jpg" alt="ice cream--" class="food__image"/>
+                </div> 
+                <div class="food__card__description">
+                    <h3 class="food__title">Ice Cream</h3>
+                    <p class="food__menu__text">Baskin Robins, Ibaco <span style="color: red">+3</span></p>
+                </div>
+                </div>
             </div>
-             </div>
-          </section>
-      </main>
+            <div class="explore__menu__view__more">
+                <button class="button__primary">View more</button>
+            </div>
+        </section>
+    </main>
   </body>
 </html>
